@@ -7,6 +7,9 @@ apt upgrade -y
 #install git and curl
 apt install git curl -y
 
+#Ubuntu swap capslock and escape
+dconf write /org/gnome/desktop/input-sources/xkb-options "['caps:swapescape']"
+
 #install zsh
 apt install zsh powerline fonts-powerline -y
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
