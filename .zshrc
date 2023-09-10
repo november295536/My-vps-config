@@ -76,7 +76,7 @@ plugins=(
         zsh-autosuggestions
         zsh-completions
         zsh-syntax-highlighting
-        fast-syntax-highlighting
+        F-Sy-H
         autoupdate
 
 )
